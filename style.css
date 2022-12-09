@@ -1,0 +1,1341 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;900&display=swap');
+
+@import url('https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css');
+
+body{
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.navbar--height {   
+    height: 100px;
+}
+
+.navbar-dark .navbar-toggler-icon{
+    width: 20px;
+    height: 16px;
+}
+
+.nav-link{
+    font-weight: 500;
+}
+/* .nav-link:hover:not(.btn-private-site, .btn-open-account){
+    color: #320000 !important;
+} */
+
+.navbar-dark .navbar-toggler{
+    border-color: rgba(255,255,255,0);
+}
+
+
+.desktop-dropdown .dropdown-toggle::after{
+    content: url(img/flecha.png);
+    margin-left: 6px;
+    border-top: 0 ;
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 0;
+    vertical-align: 0px;
+}
+
+.desktop-dropdown .dropdown-toggle.show::after{
+    content: url(img/flecha.png);
+    margin-left: 6px;
+    border-top: 0 ;
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 0;
+    vertical-align: 0px;
+}
+
+.desktop-dropdown .dropdown-toggle.show{
+    background-color: #320000;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #FD6826 !important;
+}
+
+.desktop-dropdown .nav-link{
+  transition: none;
+}
+
+.desktop-dropdown .dropdown-item{
+    color: #FD6826;
+    font-weight:500;
+}
+
+.desktop-dropdown .dropdown-item:hover{
+    color: #FFF;
+    background-color: transparent;
+}
+
+.desktop-dropdown .dropdown-menu[data-bs-popper]{
+    margin-top: 0px;
+}
+
+.desktop-dropdown .dropdown-menu{
+    min-width: 15rem;
+}
+
+.desktop-dropdown .dropdown-item.active, .desktop-dropdown .dropdown-item:active{
+    background-color: transparent;
+    color: #fff !important;
+}
+
+.dropdown-menu{
+    color: #fff;
+    background-color: #320000;
+    border: none;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+}
+
+.dropdown-item{
+    color: #fff;
+}
+
+.button-banner {
+    padding: 20px 20px 19px;
+    display: inline-block;
+    background: #083E7C;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 70px;
+    width: 330px;
+    position: relative;
+    border: 1px solid #083E7C;
+}
+
+.button-banner.effect-1{
+    transition: all 0.2s linear 0s;
+}
+
+.button-banner.effect-1:before {
+    content: url(img/chevron-down.svg);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 15px;
+    top: 25px;
+    opacity: 0;
+    transition: all 0.2s linear 0s;
+  
+}
+
+.button-banner:hover{
+    background-color:#fff;
+    color: #FD6826 !important;
+    text-indent: -30px;
+    border: 1px solid #fff;
+}
+
+.service .button-banner:hover,
+.consult .button-banner:hover,
+.finance .button-banner:hover,
+.focus .button-banner:hover,
+.control .button-banner:hover,
+.dudas .button-banner:hover{  
+    border: 1px solid #FD6826 !important;
+}
+
+.button-banner--modifier:hover{
+    text-indent: -58px;
+}
+
+.button-banner:hover:before{
+    opacity: 1;
+    text-indent: -40px;
+}
+
+.container-fluid{
+    width: 90%;
+}
+
+.container-fluid--width{
+    width: 100%;
+}
+
+.bg-orange {
+    background: #FD6826;
+}
+
+.btn-private-site { 
+    color: #083E7C;
+    border: 1px solid #083E7C;
+    border-radius: 70px;
+    padding: 6.5px 18.5px 6.5px 18.5px   
+}
+
+.card-position {
+    position: absolute;
+    left: 130px;
+}
+
+.btn-private-site:hover { 
+    color: #083E7C;   
+}
+
+.btn-open-account {
+    color: #fff;
+    background-color: #083E7C;
+    border-radius: 70px;
+    padding: 6.5px 18.5px 6.5px 18.5px
+}
+
+.btn-open-account:hover { 
+    color: #fff;   
+}
+
+.container-jumbotron{
+    height: 455px;
+    background: linear-gradient(154.69deg, #FE6925 39.38%, #FF8634 99.25%);
+}
+
+.banner{
+    padding: 180px 0px 110px 0px;
+    background: #FD6826;
+}
+
+.banner-tarjeta-trafalgar{
+    padding-top: 200px;
+    color: #fff;
+}
+
+.banner-textos{
+    width: 48%;
+}
+
+.title{
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 48px;
+    color: #fff;
+}
+
+.title-n{
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 48px;
+    color: #FE6925;
+}
+
+.title-c{
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 48px;
+    color:  #320000;
+}
+
+.copy{
+    font-weight: 500;
+    color: #fff;
+    line-height: 23px;
+}
+
+.comercio-label{
+    font-weight: 500;
+    color: #320000;
+    line-height: 23px;
+    font-size:20px;
+}
+
+.beneficio-title,
+.beneficio-item,
+.copy-c{
+    font-weight: 500;
+    color: #320000;
+    line-height: 23px;
+}
+
+.copy-n {
+    color: #FF861A;
+    line-height: 23px;
+    font-weight: bold;    
+}
+
+.img-vector{
+    margin-left: 10px;
+}
+
+.fz-25{
+    font-size: 25px !important;
+}
+
+.fz-16{
+    font-size: 16px !important;
+}
+
+.fz-15{
+    font-size: 15px !important;
+}
+
+.cta {
+    padding: 20px 20px 19px;
+    display: inline-block;
+    background: #320000;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 70px;
+    width: 330px;
+}
+
+.cta:hover{
+    color: #fff;
+}
+
+
+.copy--link:hover{
+    color: #fff;
+    text-decoration: underline;
+    transition: all 0.2s linear 0s;
+}
+
+.copy--link{
+    color: #fff;
+    text-decoration: none;
+    line-height: 23px;
+    font-weight:500;
+}
+
+.commission{
+    padding: 125px 0px 251px 0px;
+    background:#fff;
+}
+
+.commission .title{
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 37px;
+    color: #320000;
+    width: 75%;
+}
+
+.commission .copy,
+.security .copy,
+.security-all .copy,
+.service .copy,
+.control .copy,
+.store .copy,
+.consult .copy,
+.focus .copy,
+.finance .copy {
+    color: #000;
+    font-weight: 500;
+    line-height: 23px;
+}
+
+.consult{
+    padding: 187px 0px 90px 0px;
+    background:#fff;
+}
+
+.focus{
+    padding: 80px 0px 109px 0px;
+    background:#fff;
+}
+
+.finance{
+    padding: 172px 0px 109px 0px;
+    background:#fff;
+}
+
+.finance .logo::after,
+.focus .logo::after {
+    content: "";
+    background-color: transparent;
+    display: block;
+    height: 45px;
+    position: relative;
+    margin-top: -280px;
+}
+
+.consult .logo::after {
+    content: "";
+    background-color: transparent;
+    display: block;
+    height: 45px;
+    position: relative;
+    margin-top: -250px;
+}
+
+.commission .logo::after {
+    content: "";
+    background-color: transparent;
+    display: block;
+    height: 45px;
+    position: relative;
+    margin-top: -420px;
+}
+
+.logo::after {
+    content: "";
+    background-color: transparent;
+    display: block;
+    height: 45px;
+    position: relative;
+    margin-top: -210px;
+}
+
+.security{
+   padding: 320px 0px 78px 0px;
+   background-color:#F6F1EB;
+}
+
+.download-app{
+    padding: 60px 0px 0px 0px;
+    background-color:#fff;
+ }
+
+.security-all{
+    padding: 100px 0px 80px 0px;
+    background:white;
+}
+
+.security .title,
+.security-all .title,
+.service .title,
+.store .title,
+.consult .title,
+.focus .title,
+.finance .title,
+.terminos .title{
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 37px;
+    color: #320000;
+}
+
+.control .title{
+    font-size: 46px;
+    line-height:48px;
+    color: #320000;
+    font-weight:900;
+}  
+
+.security--item{
+    font-weight: 500;
+}
+
+.security .banner-textos{
+    width: 48%;
+    margin-right: 127px;
+}
+
+.security-all .banner-textos{
+    width: 48%;
+}
+
+.security-all .logo{
+   margin-top: -360px;
+   margin-left: 0px;
+}
+
+.service{
+    padding: 195px 0px 200px 0px;
+}
+
+.control{
+    padding: 110px 0px 175px 0px;
+    background:#fff;
+}
+
+.service .banner-textos{
+    width: 30%;
+}
+
+.service-card{
+    margin-right: 55px;
+}
+
+.store{
+    padding: 84px 0px 105px 0px;
+    background-color: #F6F1EB;
+}
+
+.store .copy--modifier {
+    color: #320000;
+}
+
+footer{
+    padding: 33px 0px 22px 0px;
+    background-color: #320000;
+}
+
+footer .footer-ph-1{
+    font-size: 25px;
+    font-weight:900;
+}
+
+footer .logo-footer{
+    width: 91px;
+    height: 58px;
+}
+
+.active{
+    color: #320000 !important;
+}
+
+.btn-open-account-mobile{
+    background: #FD6826;
+    border-radius: 70px;
+    padding: 20px 70px;
+}
+
+.label-menu-mobile{
+    font-size:40px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #FF861A;
+}
+
+.body-scroll{
+    overflow-y: hidden;
+}
+
+.security-all--title,
+.banner-tarjeta-trafalgar .img--width,
+.image-control{
+    width: 42%;
+}
+
+.solicita{
+    transition: all 0.2s linear 0s;
+}
+
+.solicita:hover{
+    color: #FF861A;
+    margin-right: 55px !important;
+    transition: all 0.2s linear 0s;
+}
+
+/* SWIPER */
+.swiper {
+    width: 600px;
+    height: 525px;
+}
+
+.swiper-pagination-bullet-active{
+      background-color: #FD6826;
+}
+
+.swiper-pagination-bullet{
+  margin: 0 0 0 20px !important;
+}
+
+
+.swiper-pagination{
+    text-align: end;
+}
+
+.slide-title{
+    color:#FD6826;
+    font-size:21px;
+    line-height:37px;
+    font-weight: bold;
+}
+
+.banner-nosotros{
+    height:470px;
+    background-image: url(img/banner-nosotros.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.construyendo{
+    background-color: #320000;
+    width:460px;
+    position: absolute;
+    top: 180px;
+}
+
+.construyendo .title{
+    font-size:46px;
+    color: #FD6826;
+    line-height:48px;
+    font-weight: 900;
+}
+
+.bank{
+    padding: 205px 0px 65px 0px;
+}
+
+.bank .title,
+.sucursal .title,
+.banner-ayuda .title{
+    font-size:46px;
+    color: #320000;
+    line-height:48px;
+    font-weight: 900;
+}
+
+.bank .texto{
+    width:55%;
+}
+
+.man::after {
+    content: "";
+    background-color: transparent;
+    display: block;
+    height: 45px;
+    position: relative;
+    margin-top: -315px;
+}
+
+.woman{
+    width: 62%;
+}
+
+.sucursal{
+    padding: 120px 0px 140px 0px;
+    background-color: #F6F1EB;
+}
+
+.sucursal .subtitle,
+.banner-tarjeta-trafalgar .subtitle{
+    font-weight: 500;
+    font-size:20px;
+    line-height:26px;
+    color: #320000;
+}
+
+.sucursal .button-banner--modifier:hover{
+    text-indent: -90px;
+    border: 1px solid #FD6826 !important;
+}
+
+.banner-ayuda,
+.banner-cuenta-trafalgar{
+    background-color: #F6F1EB;
+    padding: 175px 0px 70px 0px;
+}
+
+.ayuda{
+    padding: 70px 0px 95px 0px;
+}
+
+.ayuda .title{
+    font-size:36px;
+    line-height: 37px;
+    color: #320000;
+    font-weight:300;
+}
+
+.accordion-item{
+    margin-bottom: 15px;
+   border-radius:70px;
+   border: 1px solid transparent;
+}
+
+
+.accordion-header{
+ 
+   border-radius:70px
+}
+
+.accordion-button{
+   border: 1px solid #083E7C;
+   border-radius:70px;
+   color: #083E7C;
+   font-weight: 500;
+}
+
+.accordion-button:focus{
+    box-shadow: none;
+    border-color: #083E7C;
+}
+
+.accordion-button:not(.collapsed){
+    color: #fff;
+    background-color: #FD6826;
+    box-shadow: none;
+    border:1px solid #FD6826;
+}
+
+.accordion-button:not(.collapsed)::after{
+    background-image: url(img/close-white.svg);
+    transform: none;
+}
+
+.accordion-body{
+    font-size:15px;
+    color: #320000;
+    font-weight: 500;
+}
+
+.accordion-item:first-of-type{
+    border-top-right-radius: 70px;
+    border-top-left-radius: 70px;
+}
+
+.accordion-item:first-of-type .accordion-button{
+    border-top-right-radius: 70px;
+    border-top-left-radius: 70px;
+}
+
+.accordion-item:last-of-type{
+    border-bottom-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+}
+
+.accordion-item:last-of-type .accordion-button.collapsed{
+    border-bottom-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+}
+
+
+.dudas .title{
+    font-size:36px;
+    line-height:48px;
+    color: #320000;
+    font-weight: 900;
+}
+
+.dudas .subtitle{
+    font-weight: 500;
+    color: #320000;
+}
+
+.dudas .info{
+    font-size: 20px;
+    line-height:36px;
+    font-weight: 500;
+    color: #FD6826;
+}
+
+.dudas .button-banner--modifier:hover{
+    text-indent: -150px;
+}
+
+.border-section{
+    border-right: 1px solid #E5E5E5;
+}
+
+footer .line{
+    margin: 19px 0px !important;
+}
+
+/*timeline**/
+
+.timeline {
+    list-style: none;
+    padding: 0px 0 20px;
+    position: relative;
+}
+  
+/*.timeline:before {*/
+/*    top: 70px;*/
+/*    bottom: 210px;*/
+/*    position: absolute;*/
+/*    content: " ";*/
+/*    width: 1px;*/
+/*    background-color: #FD6826;*/
+/*    left: 4%;*/
+/*    margin-left: -3.5px;*/
+/*}*/
+
+.timeline li:before{
+    content: '';
+    height: 100%;
+    width: 1px;
+    background: #FD6826;
+    position: absolute;
+    left: 25px;
+    top: 0;
+}
+
+.timeline li:last-child:before {
+    display: none;
+}
+  
+.timeline > li {
+    padding-bottom: 105px;
+    position: relative;
+}
+
+
+  
+.timeline > li:before,
+.timeline > li:after {
+    content: " ";
+    display: table;
+}
+
+.timeline > li:after {
+    clear: both;
+}
+
+.timeline > li:before,
+.timeline > li:after {
+    content: " ";
+    display: table;
+}
+
+.timeline > li:after {
+    clear: both;
+}
+
+.timeline > li > .timeline-panel {
+    width: 86%;   
+    padding: 0 20px;
+    margin-left:45px;
+    position: relative;
+
+
+}
+
+.timeline > li > .timeline-badge{
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    background-color: #FD6826;
+    z-index: 100;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+
+
+/*.timeline > li > .timeline-badge-uno {*/
+/*    color: #fff;*/
+/*    width: 50px;*/
+/*    height: 50px;*/
+/*    line-height: 50px;*/
+/*    font-size: 1.4em;*/
+/*    text-align: center;*/
+/*    position: absolute;*/
+/*    top: 10%;*/
+/*    background-color: #FD6826;*/
+/*    z-index: 100;*/
+/*    border-top-right-radius: 50%;*/
+/*    border-top-left-radius: 50%;*/
+/*    border-bottom-right-radius: 50%;*/
+/*    border-bottom-left-radius: 50%;*/
+/*}*/
+
+/*.timeline > li > .timeline-badge-dos {*/
+/*    color: #fff;*/
+/*    width: 50px;*/
+/*    height: 50px;*/
+/*    line-height: 50px;*/
+/*    font-size: 1.4em;*/
+/*    text-align: center;*/
+/*    position: absolute;*/
+/*    top: 28%;*/
+/*    background-color: #FD6826;*/
+/*    z-index: 100;*/
+/*    border-top-right-radius: 50%;*/
+/*    border-top-left-radius: 50%;*/
+/*    border-bottom-right-radius: 50%;*/
+/*    border-bottom-left-radius: 50%;*/
+/*}*/
+
+/*.timeline > li > .timeline-badge-tres {*/
+/*    color: #fff;*/
+/*    width: 50px;*/
+/*    height: 50px;*/
+/*    line-height: 50px;*/
+/*    font-size: 1.4em;*/
+/*    text-align: center;*/
+/*    position: absolute;*/
+/*    top: 16%;*/
+/*    background-color: #FD6826;*/
+/*    z-index: 100;*/
+/*    border-top-right-radius: 50%;*/
+/*    border-top-left-radius: 50%;*/
+/*    border-bottom-right-radius: 50%;*/
+/*    border-bottom-left-radius: 50%;*/
+/*}*/
+
+
+.timeline > li.timeline-inverted > .timeline-panel:before {
+    border-left-width: 0;
+    border-right-width: 15px;
+    left: -15px;
+    right: auto;
+}
+
+.timeline > li.timeline-inverted > .timeline-panel:after {
+    border-left-width: 0;
+    border-right-width: 14px;
+    left: -14px;
+    right: auto;
+}
+
+.timeline-heading {
+    width: 100%;
+}
+.timeline-clock {
+    width: 25%;
+}
+
+.timeline-title {
+    margin-top: 0;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 37px;
+    color: #320000;
+}
+
+.timeline-body > p,
+.timeline-body > ul {
+    margin-bottom: 0;
+}
+
+.timeline-body > p + p {
+    margin-top: 5px;
+}
+
+.download-app .banner-textos{
+    width:42%
+}
+
+.terminos{
+    padding: 170px 0px 90px 0px;
+}
+
+
+/*********************************************************************************************************************************************
+
+/****CONTACTO*/
+.contacto button{
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 1.25em 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+}
+.contacto button:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+
+.contacto button i{
+  color: white;
+  font-size: 1.3rem;
+  transition: all 0.2s ease-in-out;
+}
+.contacto button:hover i{
+  color: black;
+}
+
+
+/****SUB-TITULO****/
+.sub-titulo{
+    margin: 85px;
+    padding: 25px;
+}
+
+
+
+
+/*-----------------------------------------------------------  MOBILE ----------------------------------------------------------*/
+
+@media only screen and (max-width: 600px) {
+
+
+    .timeline li{
+        position: relative;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .timeline li .timeline-panel .app-stores-buttons .app-img{
+        height: auto;
+    }
+
+    .timeline li:last-child:before{
+        display: none;
+    }
+
+    .timeline  li .timeline-badge{
+        top: 0;
+    }
+    .timeline li .timeline-panel{
+        padding-top: 0;
+        padding-bottom: 65px;
+        margin-left: 50px;
+        align-items: flex-start;
+        padding-right: 0;
+    }
+
+    .timeline li .timeline-panel img{
+        height: 45px;
+        margin-right: 15px;
+    }
+
+    .timeline-title{
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+
+
+    .download-app .banner-textos{
+        width: 100%;
+    }
+
+     .container-fluid{
+        width: 100%;
+     }
+    
+      #navbarSupportedContent ul li:not(:last-child,.list-drop){
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+      }
+
+      .nav-link:hover:not(.btn-private-site, .btn-open-account){
+        color: #fff !important;
+      }
+
+      .mobile-dropdown .nav-link.dropdown-toggle.show{
+        color: #FD6826 !important;
+      }
+
+      .mobile-dropdown .dropdown-toggle::after{
+        content: url(img/flecha-der.png);
+        margin-left: 23px;
+        border-top: 0 ;
+        border-right: 0;
+        border-bottom: 0;
+        border-left: 0;
+        vertical-align: 0px;
+        transition: all 0.2s linear 0s;
+    }
+    
+      .mobile-dropdown .dropdown-toggle.show::after{
+        content: url(img/flecha-down.png);
+        margin-left: 23px;
+        border-top: 0 ;
+        border-right: 0;
+        border-bottom: 0;
+        border-left: 0;
+        vertical-align: 0px;
+        transition: all 0.2s linear 0s;
+    }
+
+    .mobile-dropdown .dropdown-item:focus, .dropdown-item:hover{
+        color: #FD6826;
+        background-color: transparent;
+    }
+
+    .dropdown-item.active, .dropdown-item:active{
+        background-color: transparent;
+    }
+      /* #navbarSupportedContent a:not(.no-hover):hover{
+        border-bottom: none;
+        color: #fff !important;
+      }
+     */
+      .offcanvas-header{ 
+          display:block; 
+      }
+    
+      .navbar-collapse {
+        position: fixed;
+        top:0; 
+        bottom: 0;
+        left: 100%;
+        width: 100%;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        overflow-y: auto;
+        visibility: hidden;
+        background-color: #320000;
+    
+      }
+      
+      .navbar-collapse.show {
+        visibility: visible;
+        transform: translateX(-100%);
+      }
+
+      .shadow-img{
+          background-position: center;
+      }
+
+      .banner{
+          padding: 115px 0px 20px 0px;
+      }
+
+      .card-position {
+            position: inherit;
+            left: 0px;
+       }   
+
+      .btn-open-account{
+          font-size:13px;
+      }
+
+    .consult{
+        padding: 127px 0px 30px 0px;
+    }
+
+    .finance{
+        padding: 107px 0px 30px 0px;
+    }
+
+    .focus{
+        padding: 57px 0px 30px 0px;
+    }
+
+    .control{
+        padding: 35px 0px 55px 0px;
+    }
+
+    .security-all{
+        padding: 50px 0px 35px 0px;
+    }
+
+    .commission{
+        padding: 15px 0px 0px 0px;
+    }
+
+    .commission .title,
+    .banner-textos,
+    .service .banner-textos,
+    .banner-tarjeta-trafalgar .img--width,
+    .security-all--title,
+    .security-all .banner-textos,
+    .image-control,
+    .security .banner-textos,
+    .bank .texto,
+    .woman {
+        width: 100%;
+    }    
+
+    .consult .title,
+    .finance .title,
+    .focus .title{
+        color: #fff;
+    }
+
+    .consult .title--modifier,
+    .focus .title--modifier,
+    .finance .title--modifier{
+        color: #320000;
+    }
+
+    .security{
+        padding:50px 0px 0px 0px;
+    }
+
+    .store{
+        padding:62px 0px 100px 0px;
+    }
+    
+    .security .logo{
+        padding-top: 115px;
+        text-align: center;
+       
+     }
+
+
+    .security .logo::after{
+        margin-top: -195px;
+        
+     }
+
+     .consult .logo::after{
+        margin-top: -120px;
+     }
+
+     .finance .logo::after{
+        margin-top: -80px;
+     }
+
+     .focus .logo::after{
+        margin-top: -80px;
+     }
+
+     .service{
+        padding: 235px 0px 62px 0px;
+        overflow-x: hidden;
+     }
+
+     .service-card{
+        margin-right: 0px;
+    }
+
+    .title-n,
+    .title-c,
+    .construyendo .title,
+    .bank .title,
+    .sucursal .title,
+    .control .title,
+    .banner-ayuda .title{
+        font-size:36px;
+        line-height:37px;
+    }
+
+    .comercio-label{
+        font-size: 16px;
+    }
+
+    .beneficio-item,
+    .beneficio-title{
+        font-size: 15px;
+    }
+
+
+    .swiper {
+        width: 350px;
+        height: 605px;
+    }
+
+    .swiper-pagination{
+        text-align: center;
+    }
+
+    .construyendo{
+        width:340px;
+        top: 295px;
+    }
+
+    .bank{
+        padding: 380px 0px 38px 0px;
+    }
+
+    .w-75{
+        width: 100% !important;
+    }
+
+    .man::after{
+        margin-top: 0px;
+    }
+
+    .woman::after{
+        content: "";
+        background-color: transparent;
+        display: block; 
+        height: 45px;
+        position: relative;
+        margin-top: -130px;
+    }
+
+    .woman-title{
+        color: #fff !important;
+    }
+
+    .sucursal .subtitle,
+    .banner-tarjeta-trafalgar .subtitle {
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .sucursal{
+        padding: 60px 0px 110px 0px;
+    }
+
+    .sucursal .button-banner{
+        background-color: #083E7C;
+        text-align: center;
+    }
+
+    .sucursal .button-banner--modifier:hover{
+        color: #fff;
+        text-indent: 0px;
+    }
+    
+    .sucursal .button-banner.effect-1:before {
+        content: none;
+    }
+    
+    .sucursal .button-banner:hover{
+        color: #FFF !important;
+        border: 1px solid #083E7C !important;
+    }
+
+    .banner-ayuda,
+    .banner-cuenta-trafalgar{
+        background-color: #fff;
+        padding: 175px 0px 0px 0px;
+    }
+
+    footer{
+        padding: 38px 0px;
+    }
+
+    footer .links .text-white{
+        --bs-text-opacity: 0.4;
+    }
+
+    .border-section{
+        border-bottom: 1px solid #E5E5E5;
+    }
+
+    footer .line{
+        margin: 41px 0px !important;
+    }
+
+    .shadow-img{
+        background-image: url(img/shadow-bar.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: #FE6925;
+    }
+
+    .solicita:hover{
+        margin-right: 28px !important;
+    }
+
+    .active{
+        color: #FE6925 !important;
+    }
+
+    .banner-tarjeta-trafalgar{
+        padding-top:150px;
+    }
+    
+  }
+
+
+  @media only screen and (min-width: 400px) and (max-width: 420px) {
+
+    .consult .banner-textos,
+    .finance .banner-textos{
+        width: 88%;
+    }
+
+  }
+
+
+/* ANIMACIONES */
+
+.commission-text-effect {
+    transform: translateY(-140px);
+    transition: translateY 0.2s ease-out ;
+    opacity: 0
+
+}
+
+.cell-effect {
+    transform: translateY(60px);
+    transition: translateY 0.2s ease-out ;
+    opacity: 0.3
+}
+
+.extender { 
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+@media screen and (max-width:400px){
+    .overlay p{
+        font-size: 18px;
+    }
+    .overlay i{
+        font-size: 40px;
+    }
+}
