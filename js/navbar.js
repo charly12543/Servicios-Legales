@@ -19,13 +19,14 @@ class Navbar extends HTMLElement {
         <nav class="navbar navbar-expand-lg navbar-dark navbar--height bg-orange fixed-top" id="navbar">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">
-                    <img src="img/logo2.png" alt="Logo" width="120" height="60" style="border-radius: 10% / 50%;">
+                    <img src="img/logo2.png" alt="Logo" width="100" height="50" style="border-radius: 10% / 50%;">
                 </a>
                 <a class="nav-link no-hover btn-open-account d-block d-md-none me-4 ms-auto" href="formulario.html">Obten una Asesoria</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
+                    <p>Menu</p>
                 </button>
 
                
@@ -70,7 +71,7 @@ class Navbar extends HTMLElement {
                         </li>
 
                         <li class="nav-item me-3 py-3 py-lg-0"><a class="nav-link text-white ${this.item == 'nosotros' ? 'active' : '' } "
-                            href="nosotros.html">¿Quienes Somos?</a></li>
+                            href="nosotros.html">Nosotros</a></li>
                         <li class="nav-item me-3 py-3 py-lg-0 list-drop"><a class="nav-link text-white ${this.item == 'centro' ? 'active' : '' } "
                             href="contacto.html">Contacto</a></li>
                         
@@ -87,8 +88,7 @@ class Navbar extends HTMLElement {
                     </ul>
                 </div>
 
-                <a class="nav-link no-hover btn-private-site d-none  me-3" href="#!" style="font-size:13px">Acceso a mi sitio
-                    privado</a>
+            
                 <a class="nav-link no-hover btn-open-account d-none d-lg-flex" href="formulario.html" style="font-size:13px">Obten una Asesoria</a>
             </div>
         </nav>
