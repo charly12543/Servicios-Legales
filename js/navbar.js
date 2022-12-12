@@ -42,7 +42,7 @@ class Navbar extends HTMLElement {
                         </div>
 
                         <li class="d-block d-md-none nav-item me-3 py-3 py-lg-0"><a class="nav-link text-white ${this.item == 'home' ? 'active' : '' } "
-                                href="index.html">Home</a></li>
+                                href="index.html">Inicio</a></li>
     
                         <li class="nav-item dropdown py-3 d-none d-md-block desktop-dropdown py-lg-0 me-3">
                             <a class="nav-link dropdown-toggle text-white " href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
