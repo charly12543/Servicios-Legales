@@ -37,13 +37,7 @@ class Footer extends HTMLElement {
                         <i class="bi bi-telephone-forward-fill"></i>
                         </button></a>
 
-                        <a  href="mailto:dominius724@gmail.com"
-                        class="me-4 mt-3 mt-md-0 text-decoration-none text-white d-block d-md-inline-block">
-                        <button type="button">Correo :
-                        <i class="bi bi-envelope-at-fill"></i>
-                        </button></a>
-                       
-                       
+                     
                        
                     </div>   
                     
