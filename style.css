@@ -439,6 +439,7 @@ body{
 .control{
     padding: 110px 0px 175px 0px;
     background:#fff;
+    margin: 70px;
 }
 
 .service .banner-textos{
@@ -930,6 +931,10 @@ footer .line{
 .contacto button:hover i{
   color: black;
 }
+.contacto img{
+    width: 145;
+    height: 75;
+}
 
 
 /****SUB-TITULO****/
@@ -938,6 +943,35 @@ footer .line{
     padding: 25px;
 }
 
+form{
+    width: 360px;
+    margin: auto;
+    background: #FD6826;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+input,textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+#boton{
+    background: #31384A;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+#boton:hover{
+    cursor: pointer;
+}
 
 
 
@@ -1337,5 +1371,11 @@ footer .line{
     }
     .overlay i{
         font-size: 40px;
+    }
+}
+/***FORMULARIO**/
+@media screen and (max-width:360px) {
+    form{
+        width: 100%;
     }
 }

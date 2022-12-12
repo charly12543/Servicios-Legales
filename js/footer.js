@@ -12,7 +12,7 @@ class Footer extends HTMLElement {
                 <div class="d-flex justify-content-between flex-column flex-md-row">
                     <div class="d-flex flex-column flex-md-row">
                         <div class="align-self-start align-self-md-center">
-                            <img src="img/logo2.png" alt="Logo" class="me-4 logo-footer"
+                            <img src="img/logo-footer2.png" alt="Logo" class="me-4 logo-footer"
                             style="border-radius: 10% / 50%;">
                         </div>
                         <div class="text-white mt-5 mt-md-0">

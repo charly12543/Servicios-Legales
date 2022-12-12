@@ -21,7 +21,7 @@ class Navbar extends HTMLElement {
                 <a class="navbar-brand" href="index.html">
                     <img src="img/logo2.png" alt="Logo" width="172" height="60" style="border-radius: 10% / 50%;">
                 </a>
-                <a class="nav-link no-hover btn-open-account d-block d-md-none me-4 ms-auto" href="asesoria.html">Obten una Asesoria</a>
+                <a class="nav-link no-hover btn-open-account d-block d-md-none me-4 ms-auto" href="formulario.html">Obten una Asesoria</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -83,13 +83,13 @@ class Navbar extends HTMLElement {
 
                         
 <!---------------------------------------------------------------------------------------------------------------------------------->
-                        <li class="nav-item mt-4 py-lg-0 d-block d-md-none"> <a class="nav-link no-hover btn-open-account-mobile text-center text-white" href="construccion.html">Obten una Asesoria</a></li>
+                        <li class="nav-item mt-4 py-lg-0 d-block d-md-none"> <a class="nav-link no-hover btn-open-account-mobile text-center text-white" href="formulario.html">Obten una Asesoria</a></li>
                     </ul>
                 </div>
 
                 <a class="nav-link no-hover btn-private-site d-none  me-3" href="#!" style="font-size:13px">Acceso a mi sitio
                     privado</a>
-                <a class="nav-link no-hover btn-open-account d-none d-lg-flex" href="construccion.html" style="font-size:13px">Obten una Asesoria</a>
+                <a class="nav-link no-hover btn-open-account d-none d-lg-flex" href="formulario.html" style="font-size:13px">Obten una Asesoria</a>
             </div>
         </nav>
         `;
