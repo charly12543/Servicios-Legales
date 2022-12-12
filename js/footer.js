@@ -36,14 +36,7 @@ class Footer extends HTMLElement {
                         <button type="button">Llamanos:
                         <i class="bi bi-telephone-forward-fill"></i>
                         </button></a>
-
-                     
-                       
                     </div>   
-                    
-                 
-                  
-                    
                 </div>
                    
             </div> 
