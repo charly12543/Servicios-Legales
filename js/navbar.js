@@ -19,7 +19,7 @@ class Navbar extends HTMLElement {
         <nav class="navbar navbar-expand-lg navbar-dark navbar--height bg-orange fixed-top" id="navbar">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">
-                    <img src="img/logo2.png" alt="Logo" width="100" height="50" style="border-radius: 10% / 50%;">
+                    <img src="img/logo2.png" alt="Logo" width="92" height="65" style="border-radius: 10% / 50%;">
                 </a>
                 <a class="nav-link no-hover btn-open-account d-block d-md-none me-4 ms-auto" href="formulario.html">Obten una Asesoria</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
